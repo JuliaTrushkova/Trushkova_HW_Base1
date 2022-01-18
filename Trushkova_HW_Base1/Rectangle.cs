@@ -16,24 +16,24 @@ namespace Task2
             this.side2 = CheckforZero(side2);
         }
 
-        double Side1
+        public double Side1
         {
             get { return this.side1; }
             set { this.side1 = CheckforZero((double)value); }
         }
 
-        double Side2
+        public double Side2
         {
             get { return this.side2; }
             set { this.side2 = CheckforZero((double)value); }
         }
 
-        double Area
+        public double Area
         {
             get { return CheckforZero(AreaCalculator()); }
         }
 
-        double Perimeter
+        public double Perimeter
         {
             get
             { return CheckforZero(PerimeterCalculator()); }
